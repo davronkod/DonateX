@@ -1,0 +1,1027 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scrollbar-width: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 1300px;
+    height: 117px;
+    background: #F7F7F7;
+}
+
+.headr_logo {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    margin-left: -300px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+
+.p2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    margin-left: -150px;
+    margin-top: -19px;
+    cursor: pointer;
+}
+
+.p3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    margin-top: -19px;
+    cursor: pointer;
+}
+
+.p4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.p5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: -19px;
+    cursor: pointer;
+}
+
+.btn1 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: center;
+    width: 126px;
+    height: 43px;
+    background: #FF5D24;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 1100px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    transition: .5s;
+    border: 1px solid #FF5D24;
+    color: #FF5D24;
+}
+
+.h_1 {
+    width: 563px;
+    height: 139px;
+    font-family: Roboto_bold;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    color: #252525;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.span_1 {
+    color: #FF5D24;
+}
+
+.p6 {
+    width: 466px;
+    height: 53px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: -90px;
+}
+
+.qora1 {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.chuchqa {
+    margin-left: -100px;
+    position: absolute;
+    margin-top: -190px;
+    cursor: pointer;
+}
+
+.dumaloq {
+    margin-left: 55px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.bi-check2 {
+    margin-left: 75px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+
+.p7 {
+    font-family: Roboto_bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 299px;
+    margin-top: -90px;
+    position: absolute;
+    color: #FF5D24;
+}
+
+.odam1 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+.dumaloq2 {
+    margin-top: 570px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+.salom {
+    color: white;
+    margin-left: -20px;
+    margin-top: 590px;
+}
+
+.nuqta {
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+.dic1 {
+    margin-left: 1200px;
+    margin-top: -1050px;
+}
+
+.p8 {
+    font-family: Roboto_bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FF5D24;
+    margin-top: 650px;
+    position: absolute;
+    margin-left: -100px;
+    width: 200px;
+}
+
+.son {
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 880px;
+}
+
+.son2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: left;
+    width: 88px;
+    height: 43px;
+    margin-left: 610px;
+    margin-top: 5px;
+}
+
+.tugri1 {
+    width: 1px;
+    margin-left: 750px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.son3 {
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #FF5D24;
+    margin-left: 800px;
+    margin-top: -95px;
+}
+
+.son4 {
+    width: 80px;
+    height: 43px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: left;
+    margin-left: 800px;
+}
+
+.tugri2 {
+    margin-left: 950px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.son5 {
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #000;
+    margin-left: 1000px;
+    margin-top: -95px;
+}
+
+.son6 {
+    width: 86px;
+    height: 43px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 5px;
+}
+
+.aylana {
+    margin-left: 1210px;
+    margin-top: -180px;
+    position: absolute;
+}
+
+.off {
+    margin-left: 100px;
+    margin-top: 200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.btn2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-align: left;
+    color: #FF5D24;
+    width: 118px;
+    height: 39px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin-left: 800px;
+    margin-top: -500px;
+}
+
+.h_2 {
+    width: 530px;
+    height: 109px;
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.p9 {
+    width: 438px;
+    height: 84px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.btn3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    width: 149px;
+    height: 48px;
+    background: #F4643F;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.btn3:hover {
+    transition: .5s;
+    background-color: transparent;
+    border: 1px solid #F4643F;
+    color: #F4643F;
+}
+
+.btn4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-align: left;
+    color: #FF5D24;
+    width: 118px;
+    height: 39px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.xira {
+    width: 635px;
+    height: 286px;
+    background: #F7F7F7;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.pasga {
+    margin-top: 800px;
+}
+
+.h_3 {
+    width: 515px;
+    height: 109px;
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.bi-arrow-left-short {
+    font-size: 25px;
+    margin-top: 47px;
+    position: absolute;
+    margin-left: 930px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.bi-arrow-right-short {
+    font-size: 25px;
+    margin-top: -25px;
+    position: absolute;
+    margin-left: 1230px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.see {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.28px;
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 45px;
+    color: #252525;
+}
+
+.tomchi {
+    width: 330px;
+    height: 350px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 21px -2px 77px 0px #A5A5A521;
+    margin-left: 100px;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tomchi:hover {
+    box-shadow: 3px 5px 5px 5px #252525;
+    transition: .5s;
+    /* background-color: #252525; */
+}
+
+.rang {
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    background: #F4643F;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.bi-droplet {
+    width: 35.27px;
+    height: 44.98px;
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.h_4 {
+    font-family: Roboto_bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.p10 {
+    width: 277px;
+    height: 69px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.p11 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.bi-arrow-right {
+    margin-left: 120px;
+    margin-top: 299px;
+    position: absolute;
+}
+
+.tomchi2 {
+    width: 330px;
+    height: 340px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 21px -2px 77px 0px #A5A5A521;
+    margin-left: 500px;
+    margin-top: -350px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tomchi2:hover {
+    box-shadow: 3px 5px 5px 5px #252525;
+    transition: .5s;
+    /* background-color: #252525; */
+}
+
+.rang2 {
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    background: #F0C24A;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.h_5 {
+    font-family: Roboto_bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.p13 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.p12 {
+    width: 277px;
+    height: 69px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.dori {
+    width: 42.17px;
+    height: 42.17px;
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.tomchi3 {
+    width: 330px;
+    height: 340px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 21px -2px 77px 0px #A5A5A521;
+    margin-left: 900px;
+    margin-top: -340px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tomchi3:hover {
+    box-shadow: 3px 5px 5px 5px #252525;
+    transition: .5s;
+    /* background-color: #252525; */
+}
+
+.rang3 {
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    background: #56B9B4;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.h_6 {
+    font-family: Roboto_bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.p14 {
+    width: 277px;
+    height: 69px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.p15 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.btn5 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-align: left;
+    color: #FF5D24;
+    width: 118px;
+    height: 39px;
+    background: #EFEFEF;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 350px;
+}
+
+.h_7 {
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    width: 530px;
+    height: 109px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.p16 {
+    width: 438px;
+    height: 84px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.btn6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    color: #ffffff;
+    width: 149px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #FF5D24;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.btn6:hover {
+    background-color: transparent;
+    border: 1px solid #FF5D24;
+    color: #FF5D24;
+    transition: .5s;
+}
+
+.xira2 {
+    width: 635px;
+    height: 286px;
+    background: #F7F7F7;
+    margin-left: 650px;
+    margin-top: -150px;
+}
+
+.duma {
+    margin-top: -300px;
+    margin-left: 40px;
+}
+
+.btn7 {
+    width: 133px;
+    height: 39px;
+    background: #EFEFEF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-align: left;
+    color: #FF5D24;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+.h_8 {
+    width: 461px;
+    height: 109px;
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.qora2 {
+    width: 369px;
+    height: 480px;
+    border-radius: 20px;
+    border: 0.5px;
+    background: #FFFFFF;
+    border: 0.5px solid #D1D1D1;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.uyqora {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p17 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FF5D24;
+    margin-left: -280px;
+    margin-top: 10px;
+}
+
+.p18 {
+    width: 274px;
+    height: 49px;
+    font-family: Roboto_bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #252525;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p19 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: center;
+    color: #959595;
+    margin-left: -125px;
+    margin-top: 10px;
+}
+
+.btn8 {
+    width: 90px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    border: 0.3px solid #D2D2D2;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.btn7 {
+    width: 133px;
+    height: 39px;
+    background: #EFEFEF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-align: left;
+    color: #FF5D24;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+.h_8 {
+    width: 461px;
+    height: 109px;
+    font-family: Roboto_bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.qora2 {
+    width: 369px;
+    height: 480px;
+    border-radius: 20px;
+    border: 0.5px;
+    background: #FFFFFF;
+    border: 0.5px solid #D1D1D1;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.uyqora {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p17 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FF5D24;
+    margin-left: -280px;
+    margin-top: 10px;
+}
+
+.p18 {
+    width: 274px;
+    height: 49px;
+    font-family: Roboto_bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #252525;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p19 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.08px;
+    text-align: center;
+    color: #959595;
+    margin-left: -125px;
+    margin-top: 10px;
+}
+
+.btn8 {
+    width: 90px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    border: 0.3px solid #D2D2D2;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.qora3 {
+    width: 369px;
+    height: 480px;
+    border-radius: 20px;
+    border: 0.5px;
+    background: #FFFFFF;
+    border: 0.5px solid #D1D1D1;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: -480px;
+}
+
+.btn9 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: center;
+    width: 90px;
+    height: 32px;
+    border-radius: 5px;
+    background: #FF5D24;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.btn9:hover {
+    background-color: transparent;
+    color: #FF5D24;
+    border: 1px solid #FF5D24;
+    transition: .5s;
+}
+
+.qora4 {
+    width: 369px;
+    height: 480px;
+    border-radius: 20px;
+    border: 0.5px;
+    background: #FFFFFF;
+    border: 0.5px solid #D1D1D1;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: -480px;
+}
+
+.footer_img {
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 1205px;
+    height: 348px;
+}
+
+.h_9 {
+    width: 468px;
+    height: 49px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.8px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+.p20 {
+    width: 491px;
+    height: 49px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.vid{
+    margin-left: 650px;
+    margin-top: 30px;
+    cursor: pointer;
+}
