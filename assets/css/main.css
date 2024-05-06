@@ -1006,6 +1006,7 @@
     color: #ffffff;
     margin-top: -300px;
     margin-left: 500px;
+    position: absolute;z-index: 1;
 }
 
 .p20 {
@@ -1018,10 +1019,27 @@
     text-align: center;
     color: #ffffff;
     margin-left: 450px;
-    margin-top: 20px;
+    margin-top: -230px;
+    position: absolute;
+    z-index: 1;
 }
-.vid{
-    margin-left: 650px;
-    margin-top: 30px;
+
+.vid {
+    margin-left: 630px;
+    margin-top: -130px;
     cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.xira3 {
+    width: 1205px;
+    height: 349px;
+    border-radius: 20px;
+    opacity: 0.83px;
+    background: #1f1f25c6;
+    position: absolute;
+    z-index: 1;
+    margin-top: -350px;
+    margin-left: 80px;
 }
